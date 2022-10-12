@@ -1,0 +1,59 @@
+*{margin: 0%;
+padding: 0%;}
+
+body            {text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;}
+
+header          {display: flex;
+                flex-direction: column;}
+
+header          {grid-area: header;}
+main            {grid-area: main;}
+footer          {grid-area: footer;}
+
+.grilla         {display: grid;
+                grid-template-areas: "header" "main" "main" "footer";}
+
+.ima            {width: 5em;
+                height: 3em;}
+
+.gris           {background: rgb(2, 0, 36);
+                background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(255, 255, 255, 0.599877451) 0%, rgb(119, 252, 252) 100%);}
+footer          {display: flex;
+                justify-content: left;
+                margin-bottom: 0.5em;
+                @extend .gris;
+                padding: 2em;}
+
+.facebook, .whatsapp, .ubica    {width: 3em;
+                                height: 3em;
+                                margin-top: 0.5em;}
+
+.ubi            {padding-left: 10em;}
+
+
+
+@media          (min-width: 750px) {
+                
+*{padding: 0;
+margin: 0;}
+
+.grilla         {display: grid;
+                grid-template-areas: "header header header" "main main main" "footer footer footer";
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                width: 100%;
+                height: 100vh;}
+
+.ima            {width: 10em;
+                height: 7em;
+                padding-right: 2em;}
+
+header          {display: flex;
+                justify-content: space-around;}
+
+nav a:hover     {transform: scale(1.2);
+                transition: all 2s;}}

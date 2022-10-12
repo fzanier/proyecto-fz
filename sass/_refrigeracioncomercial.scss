@@ -1,0 +1,13 @@
+
+.refricomercial {background-image: url(../img/fondito.jpg);
+                h4  {color: rgb(87, 87, 168);
+                    font-weight: bold;}}
+.pcf, .lis      {color: rgb(29, 28, 28);}
+
+
+@media          (min-width: 700px) {
+.pcf, .lis      {text-align: left;
+                font-size: large;
+                font-weight: bold;
+                color: rgb(36, 34, 34);
+                padding: 2em;}}

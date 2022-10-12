@@ -1,0 +1,39 @@
+.todo               {background-image: url(../img/airesacondicionados.jpg);
+                    filter: opacity(100%);}
+
+h2                  {color: #1a1d1b;
+                    text-align: center;}
+
+.parri              {padding: 1em;
+                    font-weight: bold;
+                    font-size: large;
+                    background-color: rgb(216, 227, 247);
+                    color: rgb(61, 3, 3);}
+                    
+
+@media              (min-width: 500px) {
+.bordeuno, .bordedos{margin-top: 4.58em;
+                    margin-left: 4.58em;
+                    padding: 25px;
+                    font-size: 1.25em;
+                    display: flex;
+                    flex-direction: row;
+                    justify-items: right;}
+
+.poli, .staff       {width: 10em;
+                    height: 6em;
+                    margin-top: 2em;}}
+
+
+@media              (min-width: 750px) {
+.bordeuno, .bordedos{margin-top: 5.5em;
+                    margin-left: 5.5em;
+                    padding: 30px;
+                    font-size: 1.5em;
+                    display: flex;
+                    flex-direction: row;
+                    justify-items: right;}
+
+.poli, .staff       {width: 10em;
+                    height: 7em;
+                    margin-top: 2em;}}
