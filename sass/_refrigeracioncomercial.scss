@@ -4,12 +4,16 @@
                     font-weight: bold;}}
 .pcf, .lis      {color: rgb(29, 28, 28);}
 
-.pcf iframe{width: 6em;
-            height: 3em;}
+.video1, .video2, .video3{width: 25em;
+    height: 14em;}
+
+
 
 @media          (min-width: 700px) {
 .pcf, .lis      {text-align: left;
                 font-size: large;
                 font-weight: bold;
                 color: rgb(36, 34, 34);
-                padding: 2em;}}
+                padding: 2em;}
+.video1, .video2, .video3{width: 30em;
+                    height: 17em;}}
