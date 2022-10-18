@@ -161,15 +161,11 @@ h3 {
 }
 
 .imahtmldos {
-  height: 8em;
-  width: 5em;
+  height: 15em;
+  width: 20em;
 }
 
 @media (min-width: 500px) {
-  .imahtmldos {
-    height: 12.5em;
-    width: 10em;
-  }
   .hel, .lav, .aire {
     background: rgb(157, 187, 199);
     background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 61%);
@@ -181,8 +177,8 @@ h3 {
 }
 @media (min-width: 750px) {
   .imahtmldos {
-    height: 15em;
-    width: 12em;
+    height: 10em;
+    width: 13em;
   }
   .hel, .lav, .aire {
     display: flex;

@@ -17,12 +17,11 @@ h3                      {margin-top: 2em;
                         font-weight: bold;
                         background: rgb(157, 187, 199);
                         background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 61%);}
-
-.imahtmldos             {@include size(5em, 8em)}
+.imahtmldos             {@include size(20em, 15em)}
 
             
 @media                  (min-width: 500px) {
-.imahtmldos             {@include size(10em, 12.5em)}
+
 
 .hel, .lav, .aire       {background: rgb(157, 187, 199);
                         background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 61%);
@@ -32,7 +31,7 @@ h3                      {margin-top: 2em;
 
 
 @media                  (min-width: 750px) {
-.imahtmldos             {@include size(12em, 15em)}
+.imahtmldos             {@include size(13em, 10em)}
 
 .hel, .lav, .aire       {display: flex;}
 
