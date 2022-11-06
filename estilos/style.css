@@ -202,8 +202,8 @@ footer {
 }
 
 .video1, .video2, .video3 {
-  width: 28em;
-  height: 16em;
+  width: 24em;
+  height: 12em;
 }
 
 @media (min-width: 700px) {
