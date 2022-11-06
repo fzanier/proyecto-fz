@@ -2,22 +2,19 @@
     height: $height;
     width: $wigth;}
 
-.fondodos               {background-image: url(../img/fondohtml2.jpg);
-                        filter: opacity(100%);}
-
-h3                      {margin-top: 2em;
+.fondodos   h1, h2  {margin-top: 2em;
                         margin-bottom: 2em;
                         font-weight: bold;
-                        color: rgb(107, 9, 9);
-                        background: rgb(35, 13, 101);
-                        background: radial-gradient(circle, rgba(35, 13, 101, 0) 0%, rgba(193, 255, 251, 0.5466561625) 0%);}
+                        color: #256D85;
+                        }
 .phel, .plav, .paire    {padding: 1em;
-                        color: rgb(77, 22, 22);
+                        color: #143946;
                         font-size: large;
                         font-weight: bold;
                         background: rgb(157, 187, 199);
-                        background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 61%);}
-.imahtmldos             {@include size(20em, 15em)}
+                        background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 20%);}
+.imahtmldos             {@include size(20em, 10em);
+                        margin-bottom: 1em;}
 
             
 @media                  (min-width: 500px) {

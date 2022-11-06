@@ -1,11 +1,15 @@
-.showroom                       {background: rgb(20, 126, 185);
-                                background: radial-gradient(circle, rgba(20, 126, 185, 0) 1%, rgba(7, 159, 147, 0.599877451) 42%);}
-  
-  .show1, .show2, .show3, .show4  {height: 15em;
-                                  width: 25em;}
-  
-  h5 {font-weight: bold;
-      font-size: larger;}
+.showroom                     {background: rgb(157, 187, 199);
+                              background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 20%);
+                              h1 {font-weight: bold;
+                                    font-size:2em;}
+                              p{ font-weight: bold;
+                               color:#143946 ;}}
 
-.showw{height: 30em;
-      width: 50em;}
+.show1, .show2, .show3, .show4{height: 15em;
+                              width: 25em;}
+
+.showw{height: 15em;
+      width: 20em;}
+@media            (min-width: 700px){
+                                    .showw{height: 30em;
+                                    width: 50em;}}

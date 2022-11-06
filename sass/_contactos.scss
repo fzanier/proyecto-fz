@@ -1,13 +1,13 @@
 @import "vars";
 .form-registro {width: 19em;
-                background: rgb(162, 219, 245);
+                
                 padding: 1.4em;
                 margin: auto;
                 margin-top: 2.7em;
                 border-radius: 2px;
                 font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
                 box-shadow: 3.5px 7.5px 18.5px #000;
-                h6{ font-size: 1em;
+                h1{ font-size: 1em;
                     margin-bottom: 1em;}
                 p{  height: 1.6em;
                     text-align: center;
@@ -31,9 +31,8 @@
                 color: white;}
     
 .form-registro a:hover {text-decoration: underline;}
-.fondiu         {background: rgb(20, 126, 185);
-                background: linear-gradient(90deg, rgba(20, 126, 185, 0) 1%, rgba(16, 140, 130, 0.599877451) 42%);}
-.botons:hover   {transform: scale(1.2);
+
+                .botons:hover   {transform: scale(1.2);
                 transition: all 2s;}
 
 @media (min-width: 550px){
@@ -42,7 +41,7 @@
                 margin-top: 4.55em;
                 border-radius: 3.35px;    
                 box-shadow: 5.8px 10.83px 30.83px #000;
-                h6{font-size: 1.66em;
+                h1{font-size: 1.66em;
                 margin-bottom: 1.66em;}
                 p { height: 2.915em;
                 font-size: 1.5em;}
@@ -64,7 +63,7 @@
                 margin-top: 5.5em;
                 border-radius: 4px;    
                 box-shadow: 7px 13px 37px #000;
-                h6{font-size: 2em;
+                h1{font-size: 2em;
                 margin-bottom: 2em;}
                 p{height: 3.5em;
                 font-size: 1.8em;}

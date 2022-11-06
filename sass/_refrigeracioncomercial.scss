@@ -1,19 +1,22 @@
 
-.refricomercial {background-image: url(../img/fondito.jpg);
-                h4  {color: rgb(87, 87, 168);
-                    font-weight: bold;}}
-.pcf, .lis      {color: rgb(29, 28, 28);}
+.refricomercial h1, h2  {color: #256D85;
+                    font-weight: bold;}
 
-.video1, .video2, .video3{width: 25em;
-    height: 14em;}
+.pcf, .lis      {color: rgb(43, 47, 51);
+                background: rgb(157, 187, 199);
+                background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 20%);
+                font-weight: bold;
+                margin-bottom: 1em;
+                margin-top: 0.5 em;}
+
+.video1, .video2, .video3   {width: 28em;
+                            height: 16em;}
 
 
 
 @media          (min-width: 700px) {
 .pcf, .lis      {text-align: left;
                 font-size: large;
-                font-weight: bold;
-                color: rgb(36, 34, 34);
                 padding: 2em;}
-.video1, .video2, .video3{width: 30em;
-                    height: 17em;}}
+.video1, .video2, .video3   {width: 30em;
+                            height: 18em;}}

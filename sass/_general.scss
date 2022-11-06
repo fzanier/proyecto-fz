@@ -14,14 +14,16 @@ header          {grid-area: header;}
 main            {grid-area: main;}
 footer          {grid-area: footer;}
 
+main            {background-color:  #b6dde4;
+                filter: opacity(100%);}
+
 .grilla         {display: grid;
                 grid-template-areas: "header" "main" "main" "footer";}
 
 .ima            {width: 5em;
                 height: 3em;}
 
-.gris           {background: rgb(2, 0, 36);
-                background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(255, 255, 255, 0.599877451) 0%, rgb(119, 252, 252) 100%);}
+.gris           {background-color: #6bbabd;}
 footer          {display: flex;
                 justify-content: left;
                 margin-bottom: 0.5em;
@@ -33,6 +35,7 @@ footer          {display: flex;
                                 margin-top: 0.5em;}
 
 .ubi            {padding-left: 10em;}
+
 
 
 
@@ -56,4 +59,5 @@ header          {display: flex;
                 justify-content: space-around;}
 
 nav a:hover     {transform: scale(1.2);
-                transition: all 2s;}}
+                transition: all 2s;
+                }}

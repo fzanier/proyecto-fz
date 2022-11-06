@@ -28,6 +28,11 @@ footer {
   grid-area: footer;
 }
 
+main {
+  background-color: #b6dde4;
+  filter: opacity(100%);
+}
+
 .grilla {
   display: grid;
   grid-template-areas: "header" "main" "main" "footer";
@@ -39,8 +44,7 @@ footer {
 }
 
 .gris, footer {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(255, 255, 255, 0.599877451) 0%, rgb(119, 252, 252) 100%);
+  background-color: #6bbabd;
 }
 
 footer {
@@ -87,28 +91,30 @@ footer {
     transition: all 2s;
   }
 }
-.todo {
-  background-image: url(../img/airesacondicionados.jpg);
-  filter: opacity(100%);
-}
-
-h2 {
-  color: #1a1d1b;
+.todo h1, .todo h2 {
+  color: #256D85;
   text-align: center;
+  margin-top: 1.5em;
 }
 
 .parri {
   padding: 1em;
   font-weight: bold;
   font-size: large;
-  background-color: rgb(216, 227, 247);
-  color: rgb(61, 3, 3);
+  color: #143946;
+  background: rgb(157, 187, 199);
+  background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 20%);
+}
+
+.bordeuno, .bordedos {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 @media (min-width: 500px) {
   .bordeuno, .bordedos {
-    margin-top: 4.58em;
-    margin-left: 4.58em;
+    margin-top: 1.58em;
+    margin-left: 1.58em;
     padding: 25px;
     font-size: 1.25em;
     display: flex;
@@ -123,8 +129,8 @@ h2 {
 }
 @media (min-width: 750px) {
   .bordeuno, .bordedos {
-    margin-top: 5.5em;
-    margin-left: 5.5em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
     padding: 30px;
     font-size: 1.5em;
     display: flex;
@@ -137,32 +143,26 @@ h2 {
     margin-top: 2em;
   }
 }
-.fondodos {
-  background-image: url(../img/fondohtml2.jpg);
-  filter: opacity(100%);
-}
-
-h3 {
+.fondodos h1, h2 {
   margin-top: 2em;
   margin-bottom: 2em;
   font-weight: bold;
-  color: rgb(107, 9, 9);
-  background: rgb(35, 13, 101);
-  background: radial-gradient(circle, rgba(35, 13, 101, 0) 0%, rgba(193, 255, 251, 0.5466561625) 0%);
+  color: #256D85;
 }
 
 .phel, .plav, .paire {
   padding: 1em;
-  color: rgb(77, 22, 22);
+  color: #143946;
   font-size: large;
   font-weight: bold;
   background: rgb(157, 187, 199);
-  background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 61%);
+  background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 20%);
 }
 
 .imahtmldos {
-  height: 15em;
+  height: 10em;
   width: 20em;
+  margin-bottom: 1em;
 }
 
 @media (min-width: 500px) {
@@ -187,39 +187,47 @@ h3 {
     padding: 2.5em;
   }
 }
-.refricomercial {
-  background-image: url(../img/fondito.jpg);
-}
-.refricomercial h4 {
-  color: rgb(87, 87, 168);
+.refricomercial h1, h2 {
+  color: #256D85;
   font-weight: bold;
 }
 
 .pcf, .lis {
-  color: rgb(29, 28, 28);
+  color: rgb(43, 47, 51);
+  background: rgb(157, 187, 199);
+  background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 20%);
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 0.5 em;
 }
 
 .video1, .video2, .video3 {
-  width: 25em;
-  height: 14em;
+  width: 28em;
+  height: 16em;
 }
 
 @media (min-width: 700px) {
   .pcf, .lis {
     text-align: left;
     font-size: large;
-    font-weight: bold;
-    color: rgb(36, 34, 34);
     padding: 2em;
   }
   .video1, .video2, .video3 {
     width: 30em;
-    height: 17em;
+    height: 18em;
   }
 }
 .showroom {
-  background: rgb(20, 126, 185);
-  background: radial-gradient(circle, rgba(20, 126, 185, 0) 1%, rgba(7, 159, 147, 0.599877451) 42%);
+  background: rgb(157, 187, 199);
+  background: radial-gradient(circle, rgb(157, 187, 199) 0%, rgba(193, 255, 251, 0.4402135854) 20%);
+}
+.showroom h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+.showroom p {
+  font-weight: bold;
+  color: #143946;
 }
 
 .show1, .show2, .show3, .show4 {
@@ -227,19 +235,19 @@ h3 {
   width: 25em;
 }
 
-h5 {
-  font-weight: bold;
-  font-size: larger;
-}
-
 .showw {
-  height: 30em;
-  width: 50em;
+  height: 15em;
+  width: 20em;
 }
 
+@media (min-width: 700px) {
+  .showw {
+    height: 30em;
+    width: 50em;
+  }
+}
 .form-registro {
   width: 19em;
-  background: rgb(162, 219, 245);
   padding: 1.4em;
   margin: auto;
   margin-top: 2.7em;
@@ -247,7 +255,7 @@ h5 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   box-shadow: 3.5px 7.5px 18.5px #000;
 }
-.form-registro h6 {
+.form-registro h1 {
   font-size: 1em;
   margin-bottom: 1em;
 }
@@ -284,11 +292,6 @@ h5 {
   text-decoration: underline;
 }
 
-.fondiu {
-  background: rgb(20, 126, 185);
-  background: linear-gradient(90deg, rgba(20, 126, 185, 0) 1%, rgba(16, 140, 130, 0.599877451) 42%);
-}
-
 .botons:hover {
   transform: scale(1.2);
   transition: all 2s;
@@ -302,7 +305,7 @@ h5 {
     border-radius: 3.35px;
     box-shadow: 5.8px 10.83px 30.83px #000;
   }
-  .form-registro h6 {
+  .form-registro h1 {
     font-size: 1.66em;
     margin-bottom: 1.66em;
   }
@@ -333,7 +336,7 @@ h5 {
     border-radius: 4px;
     box-shadow: 7px 13px 37px #000;
   }
-  .form-registro h6 {
+  .form-registro h1 {
     font-size: 2em;
     margin-bottom: 2em;
   }
